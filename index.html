@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <style>
+
+        @media(max-width:800px){
+            h1{
+                font-size: 30px;
+            }
+            .secondsection{
+                padding: 110px 20px 10px 20px;
+            }
+            .thirdsection{
+                padding: 20px;
+            }
+            .fourthsection{
+                gap: 10px;
+            }
+            
+        }
+        @media(min-width:800px){
+            .container{
+                display: flex;
+                gap:15px;
+                text-align: justify;
+            }
+            .firstsection{
+                display: grid;
+                grid-template-columns: 450px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="firstsection">
+        <div>
+        <img id="mypic" src="./images/mypic.jpeg" alt="my picture">
+    </div>
+        <div>
+        <br><h1>SWETA DAS</h1>
+        <p class="summary">A self-driven and meticulous CSE student skilled in C, python, advanced python, data visualization.<br/>Focused on keeping a tight architecture in order to minimize errors and bugs.</p>
+    </div>
+</div>
+    <div class="secondsection">
+        
+    <p>Computer Science Engineering student with a developing interest in web development and structured problem solving.
+        Bringing a strong academic foundation and a practical approach to learning and applying technology.<br/><br/>
+        View my detailed resume for education, skills, experience, and activities:<b><a href="./resume.html" style="color:wheat"> <u>RESUME</u></a></b></p><br/>
+    </div>
+    
+    <div class="thirdsection">
+        <h2 style="text-align: center; font-size: 30px;"><u>PROJECTS</u></h2>
+        <ol>
+        <div class="container">
+        <b><li>Resume Builder Webpage (HTML, CSS)</b>
+            <ul><br/>
+                <li>Designed and developed a responsive personal resume webpage using HTML5 and CSS3.</li>
+                <li>Applied layout structuring, color themes, and typography principles to enhance presentation.</li>
+            </ul>
+        </li><br/>
+        
+        <b><li>Data Visualization Dashboard (Python, Excel, Power BI)</b>
+            <ul><br/>
+                <li>Created interactive charts and dashboards using Python (matplotlib, pandas).</li>
+                <li>Analyzed sample business data and visualized insights.</li>
+            </ul>
+        </li><br/>
+        
+        <b><li>Brain Tumor Analysis (Machine Learning, Deep Learning)</b>
+            <ul><br/>
+                <li>Currently working on brain tumor detection using MRI images.</li>
+                <li>Working on classifying brain tumor images into glioma, meningioma, pituitary and no-tumor types.</li>
+            </ul>
+        </li>
+    </ol>
+    <br/><br/>
+    <div class="buttons">
+        <button type="button" class="btn "><a href="./about.html"><b>ABOUT ME</b></a></button>
+        <button type="button" class="btn "><a href="./contact.html"><b>CONTACT ME</b></a></button>
+    </div><br/>
+    </div>
+    <footer>
+    <div class="fourthsection">
+        <a href="https://www.linkedin.com/in/sweta-das-796315305/"><b>Linkedin</b></a> 
+        <a href="https://github.com/swetadas570-byte"><b>Github</b></a> 
+        <a href="https://www.instagram.com/___iamswetaaa___/"><b>Instagram</b></a>
+    </div>
+    </footer>
+</body>
+</html>
